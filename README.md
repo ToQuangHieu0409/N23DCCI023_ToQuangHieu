@@ -18,9 +18,9 @@ Mã nguồn trong kho lưu trữ này là gói WebAssembly lõi được xuất 
 
 Để hệ thống hoạt động chính xác, môi trường triển khai cần đáp ứng các yêu cầu sau:
 
-- **Đối với môi trường Trình duyệt (Browser):** Yêu cầu các trình duyệt web hiện đại (Google Chrome, Microsoft Edge, Firefox, Safari) có hỗ trợ **WebAssembly** và **Web Audio API** để thu thập tín hiệu Microphone.
-- **Đối với môi trường Node.js (Tùy chọn):** Yêu cầu cài đặt sẵn Node.js (phiên bản v14.x trở lên).
-- **Môi trường máy chủ (Localhost):** Để mở tệp `browser/index.html`, cần có một máy chủ web ảo (như Python http.server, extension Live Server trên VS Code hoặc Web Server for Chrome) do chính sách bảo mật CORS của trình duyệt không cho phép chạy trực tiếp tệp từ ổ cứng (file://).
+- **Đối với môi trường Trình duyệt:** Yêu cầu các trình duyệt web hiện đại (Google Chrome, Microsoft Edge, Firefox, Safari) có hỗ trợ **WebAssembly** và **Web Audio API** để thu thập tín hiệu Microphone.
+- **Đối với môi trường Node.js:** Yêu cầu cài đặt sẵn Node.js (phiên bản v14.x trở lên).
+- **Môi trường máy chủ:** Để mở tệp `browser/index.html`, cần có một máy chủ web ảo (như Python http.server, extension Live Server trên VS Code hoặc Web Server for Chrome) do chính sách bảo mật CORS của trình duyệt không cho phép chạy trực tiếp tệp từ ổ cứng (file://).
 
 ## 4. Hướng dẫn cài đặt và chạy
 
@@ -41,5 +41,7 @@ Mã nguồn trong kho lưu trữ này là gói WebAssembly lõi được xuất 
 ## 5. Đường Dẫn Truy Cập Dự Án Và Mã Nguồn
 
 **Link dự án Edge Impluse:** https://studio.edgeimpulse.com/public/999199/live
+
 **Link Video demo:** https://drive.google.com/file/d/1QZiPXOtsV_dQ1LbFzVgQZfgQHiukXY3P/view?usp=sharing
+
 **Link giao diện thực nghiệm:** https://smartphone.edgeimpulse.com/classifier.html?
