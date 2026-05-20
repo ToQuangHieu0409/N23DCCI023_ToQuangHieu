@@ -1,0 +1,36 @@
+# Hệ điều hành (OS junk files)
+Backgrounds.desktop
+SublimeWorkspace
+Thumbs.db
+Desktop.ini
+.DS_Store
+.Trashes
+.VolumeIcon.ini
+
+# Cấu hình trình biên dịch và IDE viết code (IDEs/Editors)
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.project
+.settings/
+
+# File tạm thời và file nén tải về từ Edge Impulse
+*.zip
+*.tar.gz
+*.rar
+build/
+dist/
+
+# Thư mục thư viện nếu sau này bạn cài thêm Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Các file nhật ký hệ thống (Logs)
+logs
+*.log
